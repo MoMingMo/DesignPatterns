@@ -7,6 +7,6 @@ namespace DesignPatterns.Factory
 {
     public class RollsRoyceFactory:IFactory
     {
-        public ICar CreateCar()=> new RollsRoyceCar();
+        public Car CreateCar()=> new RollsRoyceCar();
     }
 }

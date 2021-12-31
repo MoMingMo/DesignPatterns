@@ -2,7 +2,7 @@ namespace DesignPatterns.SimpleFactory
 {
     public class Factory
     {
-        public static ICar GetCar(string cartype)
+        public static Car GetCar(string cartype)
         {
             switch (cartype)
             {

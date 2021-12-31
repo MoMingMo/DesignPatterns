@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory
 {
-    public class BMWFactory:IFactory
+    public abstract class ICar
     {
-        public Car CreateCar()=>new BMWCar();
+        public abstract void Run();
     }
 }

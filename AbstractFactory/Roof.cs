@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Factory
+namespace DesignPatterns.AbstractFactory
 {
-    public interface ICar
+    public abstract class Roof
     {
-        void Run();
+         public abstract void Create();
     }
 }

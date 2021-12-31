@@ -1,7 +1,7 @@
 namespace DesignPatterns.SimpleFactory
 {
-    public class BenzCar:ICar
+    public class BenzCar:Car
     {
-        public void Run()=>System.Console.WriteLine($"{nameof(BenzCar)} is Running");
+        public override void Run()=>System.Console.WriteLine($"{nameof(BenzCar)} is Running");
     }
 }

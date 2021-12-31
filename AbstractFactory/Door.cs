@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Factory
+namespace DesignPatterns.AbstractFactory
 {
-    public interface IFactory
+    public abstract class Door
     {
-        Car CreateCar();
+        public abstract void Create();
     }
 }

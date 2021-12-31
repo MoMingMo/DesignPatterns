@@ -10,7 +10,7 @@ namespace DesignPatterns.Factory
     {
        public static void Start()
        {
-           System.Console.WriteLine("---------工厂模式----------");
+            System.Console.WriteLine("---------工厂模式----------");
             var bmwFactory =new BMWFactory();
             var benzFactory=new BenzFactory();
             var rollsRoyceFactory=new RollsRoyceFactory();
